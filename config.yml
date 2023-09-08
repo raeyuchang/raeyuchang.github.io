@@ -1,0 +1,27 @@
+baseURL: "https://raeyuchang.github.io/"
+title: 飛哥英文單字
+paginate: 5
+theme: PaperMod
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+googleAnalytics: UA-123-45
+params:
+  ShowBreadCrumbs: true
+  profileMode:
+    enabled: true
+    title: Go Learn English
+    buttons:
+      - name: Posts
+        url: /post/
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /post/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
