@@ -12,6 +12,10 @@ params:
   profileMode:
     enabled: true
     title: Go Learn English
+    imageUrl : "https://images.gameinfo.io/pokemon/256/p143f157.png"
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
     buttons:
       - name: Posts
         url: /post/
